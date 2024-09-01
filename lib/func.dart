@@ -14,6 +14,10 @@ int subtract(int x, int y) {
   return x - y;
 }
 
+int remainder(int x, int y) {
+  return x % y;
+}
+
 int halloFeature() {
   return 1;
 }
