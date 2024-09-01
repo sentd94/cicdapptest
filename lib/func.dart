@@ -21,3 +21,10 @@ int remainder(int x, int y) {
 int power(int x, int y) {
   return x ^ y;
 }
+
+int factorial(int x) {
+  if (x == 0) {
+    return 1;
+  }
+  return x * factorial(x - 1);
+}
