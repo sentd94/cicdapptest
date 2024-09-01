@@ -21,3 +21,5 @@ int remainder(int x, int y) {
 int power(int x, int y) {
   return x ^ y;
 }
+
+void bla() {}
