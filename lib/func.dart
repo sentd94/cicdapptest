@@ -17,3 +17,7 @@ int subtract(int x, int y) {
 int remainder(int x, int y) {
   return x % y;
 }
+
+int power(int x, int y) {
+  return x ^ y;
+}
